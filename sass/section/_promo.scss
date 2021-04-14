@@ -1,0 +1,45 @@
+.promo{
+    background-image: url("../img/banner_main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 835px;
+    &__wrapper{
+        float: right;
+        padding-top: 150px;
+    }
+    &__title{
+        text-align: right;
+    }
+    &__check{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+
+        width: 425px;
+        padding-right: 40px;
+    }
+}
+
+.check__item{
+    font-size: 35px;
+    color:#ffffff;
+    font-weight: 400;
+}
+
+.check__item::before{
+    content: "";
+    display: block;
+
+    position: relative;
+    top: 38px;
+    right: -40px;
+
+    height: 27px;
+    width: 27px;
+
+    background-image:url("../img/icons/check_icon.svg");
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}

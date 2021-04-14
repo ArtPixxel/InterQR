@@ -3,11 +3,12 @@
 @import 'libs/fonts';
 @import 'libs/slick';
 
-@import 'base/titles';
+
 @import 'base/variables';
 
 @import 'section/header';
-
+@import 'section/promo';
+@import 'base/titles';
 
 *{
     position: relative;
@@ -16,7 +17,7 @@
 }
 
 .container{
-    max-width: 1195px;
+    max-width: 1200px;
 }
 
 

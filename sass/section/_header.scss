@@ -8,8 +8,8 @@
         height: 125px;
     }
     &__logo{
-        width: 90px;
-        height: 90px;
+        width: 105px;
+        height: 80px;
     }
 
     &__menu{
@@ -20,7 +20,7 @@
 .menu-hdr{
     &__wrapper{
         display: flex;
-        width: 600px;
+        width: 650px;
     }
     &__items{
         display: flex;
@@ -32,20 +32,31 @@
 
         width: 100%;
     }
+    &__item{
+        font-weight: 400;
+        font-size: 18px;
+    }
 }
+
 
 .btn-hdr{
 
     &__wrapper{
     width: 280px;
     height: 70px;
-    background-color: #30A0F8;
+    background-color: $main-blue;
     display: flex;
     justify-content: center;
     align-items: center;}
 
+    &__logo{
+        padding-left: 20px;
+    }
+
     &__link{
-        color:#ffffff; 
+        color:#ffffff;
+        font-size: 25px;
+        font-weight: 900;
     }
 
 }
