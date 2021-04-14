@@ -1,0 +1,17 @@
+.how{
+    &__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        top: -150px;
+        margin: 0 auto;
+        padding: 44px 170px 54px 170px;
+
+        width: 1440px;
+        height: 246px;
+        background-color: $second-grey;
+        border-radius: 20px;
+    }
+}

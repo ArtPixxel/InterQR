@@ -1,12 +1,12 @@
 .title{
-    &__h1{
+    &__h2{
         font-weight: 900;
         font-size: 80px;
         text-align: right;
         color: #ffffff;
         line-height: 86px;
     }
-    &__h2{
+    &__h1{
         text-align: right;
         font-size: 65px;
         font-weight: 700;
@@ -18,6 +18,10 @@
         font-size: 45px;
         color: #ffffff;
         line-height: 47px;
+        &_form{
+            font-weight: 900;
+            color: $third-purp;
+        }
     }
     &__h4{
 

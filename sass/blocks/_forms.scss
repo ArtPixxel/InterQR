@@ -1,0 +1,31 @@
+.form-main{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    &__input{
+        background-color: transparent;
+        border: none;
+        width: 290px;
+        border-bottom: 2px solid #d1d0d8;
+        margin: 0 16px;
+        ::placeholder{
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+    &__btn{
+        width: 160px;
+        height: 46px;
+
+        border-radius: 30px;
+        border: none;
+        background-color: $third-purp;
+
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
