@@ -1,0 +1,20 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/bootstrap.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+
+@import 'base/titles';
+@import 'base/variables';
+
+@import 'section/header';
+
+
+*{
+    position: relative;
+    direction: rtl;
+}
+
+.container{
+    max-width: 1195px;
+}
+

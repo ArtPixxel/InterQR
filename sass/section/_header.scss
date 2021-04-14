@@ -1,0 +1,51 @@
+.header{
+    position: relative;
+    
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        height: 125px;
+    }
+    &__logo{
+        width: 90px;
+        height: 90px;
+    }
+
+    &__menu{
+
+    }
+}
+
+.menu-hdr{
+    &__wrapper{
+        display: flex;
+        width: 600px;
+    }
+    &__items{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+
+        margin: 0;
+        padding: 0;
+
+        width: 100%;
+    }
+}
+
+.btn {
+
+    &__wrapper{
+    width: 280px;
+    height: 70px;
+    background-color: #30A0F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+    &__link{
+        color:#ffffff; 
+    }
+
+}
