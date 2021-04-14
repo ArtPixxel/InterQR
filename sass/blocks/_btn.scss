@@ -1,0 +1,42 @@
+.btn{
+    width: 280px;
+    height: 70px;
+    background-color: $main-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-hdr__logo{
+        padding-left: 20px;
+    }
+
+    &-hdr__link{
+        color:#ffffff;
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+}
+
+.btn{
+    &-main{
+        height: 46px;
+        width: 178px;
+        border-radius: 30px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__link{
+            color:#ffffff;
+            font-size: 18px;
+            font-weight: 900;
+        }
+        &__logo{
+            width: 23px;
+            height: 23px;
+            margin-left: 11px;
+        }
+    }
+}

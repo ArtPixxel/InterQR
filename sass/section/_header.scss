@@ -39,24 +39,3 @@
 }
 
 
-.btn-hdr{
-
-    &__wrapper{
-    width: 280px;
-    height: 70px;
-    background-color: $main-blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;}
-
-    &__logo{
-        padding-left: 20px;
-    }
-
-    &__link{
-        color:#ffffff;
-        font-size: 25px;
-        font-weight: 900;
-    }
-
-}
