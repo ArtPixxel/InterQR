@@ -22,6 +22,29 @@
             font-weight: 900;
             color: $third-purp;
         }
+        &_section{
+            font-weight: 700;
+            color: $third-purp;
+            text-align: center;
+            &::after{
+                content:"";
+                display: block;
+                margin: 0 auto;
+                height: 31px;
+                width: 1px;
+                background-color: $main-blue;
+                margin-top: 10px;
+            }
+            &::before{
+                content:"";
+                display: block;
+                margin: 0 auto;
+                height: 31px;
+                width: 1px;
+                background-color: $main-blue;
+                margin-bottom: 10px;
+            }
+        }
     }
     &__h4{
 

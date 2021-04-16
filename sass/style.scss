@@ -1,5 +1,3 @@
-@import 'libs/bootstrap-reboot.min';
-@import 'libs/bootstrap.min';
 @import 'libs/fonts';
 @import 'libs/slick';
 
@@ -9,20 +7,13 @@
 @import 'section/header';
 @import 'section/promo';
 @import 'section/how';
+@import 'section/about';
 
 @import 'blocks/btn';
 @import 'blocks/forms';
+@import 'blocks/blocks';
 
 @import 'base/titles';
 
-*{
-    position: relative;
-    direction: rtl;
-    font-family: 'almoni-dl', sans-serif;
-}
-
-.container{
-    max-width: 1200px;
-}
 
 

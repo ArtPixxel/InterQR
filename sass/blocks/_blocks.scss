@@ -1,0 +1,44 @@
+.blocks{
+    width: 1010px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        &::after{
+            content: "";
+            display: block;
+            width: 35px;
+            height: 56px;
+            background-image: url("../img/icons/two_arrows.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            top: -74%;
+            left: -126px;
+        }
+    }
+
+    &__image-wrap{
+        text-align: right;
+        max-height: 80px;
+    }
+
+    &__title{
+        padding-top: 33px;
+        font-size: 18px;
+        font-weight: 900;
+        text-align: right;
+        color: $third-purp;
+    }
+    &__dscr{
+        font-size: 18px;
+        text-align: right;
+    }
+}
+
+.blocks__item:last-child::after{
+    display: none;
+}
