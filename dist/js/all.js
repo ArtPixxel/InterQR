@@ -5,4 +5,14 @@ $( document ).ready(function() {
     $(this).next(".accord__descr").toggleClass('active');
    })
 
+
+    $('.slider__wrap').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        rtl: true
+      });
+
+      
 });
