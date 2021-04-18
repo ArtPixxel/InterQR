@@ -50,6 +50,9 @@
 
     &__btn{
         background-color: $main-blue;
+        &:hover{
+            background-color: #0D86CA;
+        }
     }
 
     & .bottom__line::after{

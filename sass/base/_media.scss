@@ -1,0 +1,131 @@
+@media (max-width: 568px){
+    .header__logo{
+        margin: 0 auto;
+    }
+    .btn-hdr__wrapper, .header__menu{
+        display: none;
+    }
+
+    .promo{
+        background-image: url("../img/mobile_bg.jpg");
+        height: 440px;
+        &__wrapper{
+            float: right;
+            padding-top: 35px;
+        }
+        &__title{
+            text-align: right;
+        }
+        &__check{  
+            width: 300px;
+        }
+        &__btn{
+            padding-top: 37px;
+        }
+    }
+    .check__item{
+        font-size: 20px;
+    }
+    
+    .check__item::before{
+        top: 38px;
+        right: -40px;
+    
+        height: 14px;
+        width: 14px;
+    
+        background-image:url("../img/icons/check_icon.svg");
+    }
+
+
+
+
+    .title{
+        &__h2{
+            font-size: 35px;
+        }
+        &__h1{
+            font-size: 35px;
+        }
+        &__h3{
+            font-size: 20px;
+            line-height: 1.2;
+            &_form{
+                color: $third-purp;
+                font-size: 25px;
+            }
+            &_section{
+                font-weight: 700;
+                color: $third-purp;
+                text-align: center;
+                &::after{
+                    content:"";
+                    display: block;
+                    margin: 0 auto;
+                    height: 31px;
+                    width: 1px;
+                    background-color: $main-blue;
+                    margin-top: 10px;
+                }
+                &::before{
+                    content:"";
+                    display: block;
+                    margin: 0 auto;
+                    height: 31px;
+                    width: 1px;
+                    background-color: $main-blue;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+
+    .form-main{
+        top: -130px;
+        margin: 0 auto;
+        padding: 20px;
+
+        width: 323px;
+        height: 246px;
+        background-color: $second-grey;
+        border-radius: 18px 33px 43px 33px;
+        box-shadow: 0px 0px 52px 18px rgba(26, 18, 59, 0.12);
+
+
+    &__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+ 
+    &__input{
+        background-color: transparent;
+        border: none;
+        width: 290px;
+        border-bottom: 2px solid #d1d0d8;
+        margin: 0 16px;
+        ::placeholder{
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+    &__btn{
+        width: 251px;
+        height: 38px;
+
+        border-radius: 30px;
+        border: none;
+        background-color: $third-purp;
+
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: bold;
+        &:hover{
+            background-color: #31334D
+            ;
+        }
+    }
+}
+}
