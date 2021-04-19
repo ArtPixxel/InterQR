@@ -24,7 +24,7 @@
         &::first-line{font-weight: 900;}
     }
     &__video{
-        min-height: 321px;
+        width: 100%;
     }
 
     &__list{
@@ -34,6 +34,9 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
+    }
+    &__picture{
+        margin-top: 80px;
     }
     &__item{
         padding-bottom: 15px;

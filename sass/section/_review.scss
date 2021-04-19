@@ -1,13 +1,16 @@
 .review{
     height: 734px;
     background-color: $second-grey;
-    padding: 89px 350px 74px 350px;
+    margin: 0 auto;
     &__slider{
         margin: 0 auto;
         text-align: center;
         padding-top: 40px;
         color: $third-purp;
         font-size: 18px;
+    }
+    &__title{
+        padding-top: 50px;
     }
 }
 
@@ -23,7 +26,8 @@
         line-height: 38px;
     }
     &__descr{
-        width: 782px;
+        width: 50%;
+        padding: 10px;
         margin: 0 auto;
     }
 }
@@ -36,6 +40,7 @@
     border: none;
     background-color: transparent;
     color: transparent;
+    font-size: 0;
 
     height: 40px;
     width: 31px;
@@ -49,7 +54,8 @@
 .slick-prev{
     background-image: url('../img/icons/left.svg');
     
-    left: -100px;
+    left: 40px;
+    z-index: 1;
     &:hover{
         background-image: url('../img/icons/left_h.svg');
     }
@@ -58,7 +64,7 @@
 .slick-next{
     background-image: url('../img/icons/right.svg');
 
-    right: -100px;
+    right: 40px;
     &:hover{
         background-image: url('../img/icons/right_h.svg');
     }
@@ -96,4 +102,8 @@
 .slick-dots li.slick-active button{
     background-color: $third-purp;
     border-radius: 100%;
+}
+
+.slick-arrow:focus{
+    outline: none;
 }

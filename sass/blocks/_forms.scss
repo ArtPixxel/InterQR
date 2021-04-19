@@ -7,9 +7,9 @@
 
         top: -130px;
         margin: 0 auto;
-        padding: 44px 170px 54px 170px;
+        padding: 44px 40px 54px 40px;
 
-        width: 1440px;
+        width: 90vw;
         height: 246px;
         background-color: $second-grey;
         border-radius: 20px;
@@ -18,10 +18,10 @@
 
     &__block{
     position: relative;
-
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     }
  
     &__input{
@@ -52,3 +52,5 @@
         }
     }
 }
+
+

@@ -11,7 +11,29 @@ $( document ).ready(function() {
         infinite: true,
         speed: 300,
         slidesToShow: 1,
-        rtl: true
+        rtl: true,
+        centerMode: true,
+        centerPadding: '20px',
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: true,
+              centerMode: true,
+              centerPadding: '20px',
+              slidesToShow: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: true,
+              centerMode: true,
+              centerPadding: '20px',
+              slidesToShow: 1
+            }
+          }
+        ]
       });
 
       
